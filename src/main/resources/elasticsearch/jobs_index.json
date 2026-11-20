@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "properties": {
+      "id":          { "type": "keyword" },
+      "title":       { "type": "text" },
+      "company":     { "type": "keyword" },
+      "location":    { "type": "keyword" },
+      "country":     { "type": "keyword" },
+      "description": { "type": "text" },
+      "jobType":     { "type": "keyword" },
+      "salaryMin":   { "type": "double" },
+      "salaryMax":   { "type": "double" },
+      "currency":    { "type": "keyword" },
+      "applyUrl":    { "type": "keyword" },
+      "tags":        { "type": "text" },
+      "postedAt":    { "type": "date" },
+      "indexedAt":   { "type": "date" }
+    }
+  }
+}
